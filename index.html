@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="es">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,86 +7,108 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
     <style>
         :root {
-            --primary: #1a1a1a;
-            --accent: #0070f3;
-            --text: #333;
-            --light: #f4f4f4;
+            --primary: #121212;
+            --accent: #2563eb;
+            --text: #1f2937;
+            --light: #f9fafb;
+            --white: #ffffff;
         }
-        body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; line-height: 1.6; color: var(--text); margin: 0; }
-        header { background: var(--primary); color: white; padding: 4rem 2rem; text-align: center; }
-        .container { max-width: 900px; margin: 0 auto; padding: 2rem; }
-        .hero h1 { font-size: 3rem; margin-bottom: 1rem; }
-        .tagline { font-size: 1.2rem; opacity: 0.9; }
-        .section { padding: 4rem 0; border-bottom: 1px solid #eee; }
-        .grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 2rem; margin-top: 2rem; }
-        .card { background: var(--light); padding: 1.5rem; border-radius: 8px; }
-        .terp-box { border-left: 4px solid var(--accent); padding-left: 1.5rem; margin-bottom: 1.5rem; }
-        .cta-button { display: inline-block; background: var(--accent); color: white; padding: 1rem 2rem; text-decoration: none; border-radius: 5px; font-weight: bold; margin-top: 2rem; }
-        .guarantee { background: #fff8e1; border: 1px solid #ffe082; padding: 2rem; border-radius: 8px; margin-top: 2rem; }
-        footer { text-align: center; padding: 2rem; font-size: 0.9rem; color: #666; }
+        body { font-family: 'Inter', -apple-system, sans-serif; line-height: 1.7; color: var(--text); margin: 0; }
+        header { background: var(--primary); color: var(--white); padding: 6rem 2rem; text-align: center; }
+        .container { max-width: 1000px; margin: 0 auto; padding: 2rem; }
+        .hero h1 { font-size: 3.5rem; letter-spacing: -1px; margin-bottom: 1rem; }
+        .tagline { font-size: 1.25rem; opacity: 0.8; font-weight: 300; }
+        
+        .section { padding: 5rem 0; border-bottom: 1px solid #e5e7eb; }
+        .img-fluid { width: 100%; height: 400px; object-fit: cover; border-radius: 12px; margin: 2rem 0; }
+        
+        .grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 2.5rem; margin-top: 3rem; }
+        .card { background: var(--light); padding: 2rem; border-radius: 12px; transition: transform 0.2s; }
+        .card:hover { transform: translateY(-5px); }
+        
+        .terp-box { border-left: 4px solid var(--accent); padding: 1rem 1.5rem; background: #eff6ff; margin-bottom: 1rem; border-radius: 0 8px 8px 0; }
+        .cta-button { display: inline-block; background: var(--accent); color: white; padding: 1.25rem 2.5rem; text-decoration: none; border-radius: 8px; font-weight: 600; font-size: 1.1rem; margin-top: 2rem; }
+        
+        .guarantee { background: #fffbeb; border: 1px solid #fef3c7; padding: 2.5rem; border-radius: 12px; text-align: center; }
+        .testimonial-img { width: 80px; height: 80px; border-radius: 50%; object-fit: cover; margin-bottom: 1rem; }
+        footer { text-align: center; padding: 4rem 2rem; background: var(--light); color: #6b7280; font-size: 0.95rem; }
     </style>
 </head>
 <body>
 
 <header>
-    <div class="container hero">
-        <h1>HABIT GROUNDWORK [cite: 1]</h1>
-        <p class="tagline">Diseño de hábitos que resisten cuando la vida se pone difícil. [cite: 13]</p>
-        <a href="https://www.upwork.com/freelancers/~YOUR_ID" class="cta-button">Agendar Diagnóstico Gratuito [cite: 15]</a>
+    <div class="container">
+        <h1>HABIT GROUNDWORK</h1>
+        <p class="tagline">Designing habit systems that hold when life gets hard.</p>
+        <a href="https://www.upwork.com/freelancers/~YOUR_ID" class="cta-button">Schedule Free Diagnostic Call</a>
     </div>
 </header>
 
 <div class="container">
     <section class="section">
-        <h2>¿Tu agenda te domina a ti? [cite: 9]</h2>
-        <p>Has leído los libros de productividad y has intentado rutinas perfectas, pero nada cambia porque no tienes una guía clara para aplicar esos conceptos a tu vida real. [cite: 8]</p>
-        <p><strong>El problema no eres tú.</strong> Es que nadie te enseñó a diseñar hábitos que funcionen hacia tus metas y se mantengan firmes bajo presión. [cite: 13]</p>
+        <h2>Your week shouldn't run you.</h2>
+        <p>You’ve read the productivity books, but nothing changes because you lack a clear guide to apply those concepts to your actual life[cite: 8, 9]. The problem isn't your willpower—it's your design[cite: 13].</p>
+        <img src="https://images.unsplash.com/photo-1484480974693-6ca0a78fb36b?auto=format&fit=crop&q=80&w=1000" alt="Structure and Planning" class="img-fluid">
     </section>
 
     <section class="section">
-        <h2>El Método Groundwork [cite: 24]</h2>
+        <h2>The Groundwork Method</h2>
+        <p>A practical system built for autonomy and self-determination[cite: 24]. My goal is for you to eventually no longer need me[cite: 31].</p>
         <div class="grid">
             <div class="card">
-                <h3>1. Mapear [cite: 33]</h3>
-                <p>Analizamos tu semana real, identificamos qué te drena y construimos tu horario base. [cite: 34, 35]</p>
+                <h3>01. Map</h3>
+                <p>We analyze your <strong>real week</strong>, not the ideal one, to build a clear structure using the TERP framework[cite: 33, 34, 36].</p>
             </div>
             <div class="card">
-                <h3>2. Ajustar [cite: 37]</h3>
-                <p>Aprendes a estudiar tus propios resultados y a realizar ajustes individuales. [cite: 38, 39]</p>
+                <h3>02. Adjust</h3>
+                <p>Learn to study your own results and design individual adjustments to test in real-time[cite: 38, 39].</p>
             </div>
             <div class="card">
-                <h3>3. Fortalecer [cite: 41]</h3>
-                <p>Introducimos hábitos de resiliencia para enfrentar lo que sueles evitar. [cite: 41, 43]</p>
+                <h3>03. Strengthen</h3>
+                <p>Build resilience by training to face what you tend to avoid before it arrives uninvited[cite: 41].</p>
             </div>
         </div>
     </section>
 
     <section class="section">
-        <h2>Marco TERP [cite: 36]</h2>
-        <p>Cada hábito que diseñamos se sostiene sobre cuatro pilares fundamentales:</p>
-        <div class="terp-box"><strong>Time (Tiempo):</strong> Ubicación precisa en tu cronograma. [cite: 36]</div>
-        <div class="terp-box"><strong>Space (Espacio):</strong> El entorno físico que facilita la acción. [cite: 36]</div>
-        <div class="terp-box"><strong>Reflection (Reflexión):</strong> Análisis de qué funcionó y qué no. [cite: 36]</div>
-        <div class="terp-box"><strong>Preparation (Preparación):</strong> Llegar listo para lo que viene. [cite: 36]</div>
+        <h2>The TERP Framework</h2>
+        <p>Every habit we build is anchored by four fundamental pillars[cite: 36]:</p>
+        <div class="terp-box"><strong>Time:</strong> Precise placement in your schedule.</div>
+        <div class="terp-box"><strong>Space:</strong> The physical environment that facilitates action.</div>
+        <div class="terp-box"><strong>Reflection:</strong> Analyzing what worked and what didn't.</div>
+        <div class="terp-box"><strong>Preparation:</strong> Arriving ready for the task at hand.</div>
     </section>
 
     <section class="section">
-        <h2>Garantía de Resultados [cite: 79]</h2>
+        <h2>Results: Success Stories</h2>
+        <div class="grid">
+            <div class="card">
+                <p><em>"Martial arts classes are harder than dealing with difficult people—but that hardness is what makes me resilient."</em></p>
+                <strong>– Felipe [cite: 71]</strong>
+            </div>
+            <div class="card">
+                <p><em>"In two weeks, she had her routine running and the tools to sustain it on her own."</em></p>
+                <strong>– Ana [cite: 78]</strong>
+            </div>
+        </div>
+    </section>
+
+    <section class="section">
         <div class="guarantee">
-            <p><strong>Si no funciona, sigo trabajando sin costo.</strong> [cite: 80]</p>
-            <p>Si al finalizar el proceso no tienes un sistema de hábitos claro, aplicable y sostenible, ofrezco entre 2 y 3 sesiones adicionales sin cargo. [cite: 81]</p>
+            <h3>My Guarantee: If it doesn't work, I keep going at no cost.</h3>
+            <p>If you don't have a sustainable system after the process, I offer 2 to 3 additional sessions at no charge[cite: 81].</p>
         </div>
     </section>
 
     <section class="section" style="text-align:center;">
-        <h2>¿Listo para la estructura? [cite: 92]</h2>
-        <p>Hablemos en una llamada de 30 minutos para ver si este proceso es el adecuado para ti. [cite: 90, 91]</p>
-        <a href="https://www.upwork.com/freelancers/~YOUR_ID" class="cta-button">Ver perfil en Upwork [cite: 93]</a>
+        <h2>Ready for structure?</h2>
+        <p>Let's have a 30-minute diagnostic call to see if we are the right fit[cite: 90, 92].</p>
+        <a href="https://www.upwork.com/freelancers/~YOUR_ID" class="cta-button">Visit my Upwork Profile</a>
     </section>
 </div>
 
 <footer>
-    <p>Carlos A. Cardona · Habit Design Consultant [cite: 4]</p>
+    <p>Carlos A. Cardona · Habit Design Consultant</p>
     <p>Bilingual Life Coach | EN / ES</p>
 </footer>
 
